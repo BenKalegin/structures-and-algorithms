@@ -2,13 +2,16 @@ package algo;
 
 import algo.backtrack.ChessKnightTour;
 import algo.dynamicprogramming.LongestCommonSubsequence;
-
-import java.util.function.Consumer;
+import algo.dynamicprogramming.LongestIncreasingSubsequence;
+import algo.dynamicprogramming.MaximalSquareSubmatrixConsistingOfOnes;
 
 public class Main {
 
     public static void main(String[] args) {
-        testLongestCommonSubsequence();
+        new LongestIncreasingSubsequence().test();
+
+        //new MaximalSquareSubmatrixConsistingOfOnes().test();
+        //testLongestCommonSubsequence();
 
         if (false)
 	        new ChessKnightTour(5).findPossiblePaths();
