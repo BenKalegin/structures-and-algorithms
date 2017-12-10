@@ -4,11 +4,13 @@ import algo.backtrack.ChessKnightTour;
 import algo.dynamicprogramming.LongestCommonSubsequence;
 import algo.dynamicprogramming.LongestIncreasingSubsequence;
 import algo.dynamicprogramming.MaximalSquareSubmatrixConsistingOfOnes;
+import algo.dynamicprogramming.MinimumStepsToOne;
 
 public class Main {
 
     public static void main(String[] args) {
-        new LongestIncreasingSubsequence().test();
+        new MinimumStepsToOne().test();
+        //new LongestIncreasingSubsequence().test();
 
         //new MaximalSquareSubmatrixConsistingOfOnes().test();
         //testLongestCommonSubsequence();

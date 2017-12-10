@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6335ac78-2de4-4759-9a3f-5e9740184b36" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algo/dynamicprogramming/MinimumStepsToOne.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algo/Main.java" afterPath="$PROJECT_DIR$/src/algo/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algo/dynamicprogramming/LongestIncreasingSubsequence.java" afterPath="$PROJECT_DIR$/src/algo/dynamicprogramming/LongestIncreasingSubsequence.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +19,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="175">
+              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algo/dynamicprogramming/LongestIncreasingSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -37,6 +37,16 @@
                 <element signature="e#610#611#0" expanded="true" />
                 <element signature="e#698#699#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinimumStepsToOne.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algo/dynamicprogramming/MinimumStepsToOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,8 +115,9 @@
         <option value="$PROJECT_DIR$/src/algo/backtrack/ChessKnightTour.java" />
         <option value="$PROJECT_DIR$/src/algo/dynamicprogramming/LongestCommonSubsequence.java" />
         <option value="$PROJECT_DIR$/src/algo/dynamicprogramming/MaximalSquareSubmatrixConsistingOfOnes.java" />
-        <option value="$PROJECT_DIR$/src/algo/Main.java" />
         <option value="$PROJECT_DIR$/src/algo/dynamicprogramming/LongestIncreasingSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/algo/Main.java" />
+        <option value="$PROJECT_DIR$/src/algo/dynamicprogramming/MinimumStepsToOne.java" />
       </list>
     </option>
   </component>
@@ -263,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512700475842</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Longest increasing subsequence">
+      <created>1512924322473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512924322473</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -332,7 +350,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+longest common seq and knighttour" />
     <MESSAGE value="+Maximum size square sub-matrix with all 1s" />
-    <option name="LAST_COMMIT_MESSAGE" value="+Maximum size square sub-matrix with all 1s" />
+    <MESSAGE value="Longest increasing subsequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Longest increasing subsequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -408,16 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algo/dynamicprogramming/LongestIncreasingSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -426,6 +435,24 @@
             <element signature="e#610#611#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algo/dynamicprogramming/MinimumStepsToOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
