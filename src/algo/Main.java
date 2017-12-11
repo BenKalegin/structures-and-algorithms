@@ -1,15 +1,13 @@
 package algo;
 
 import algo.backtrack.ChessKnightTour;
-import algo.dynamicprogramming.LongestCommonSubsequence;
-import algo.dynamicprogramming.LongestIncreasingSubsequence;
-import algo.dynamicprogramming.MaximalSquareSubmatrixConsistingOfOnes;
-import algo.dynamicprogramming.MinimumStepsToOne;
+import algo.dynamicprogramming.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        new MinimumStepsToOne().test();
+        new LargestSumContiguousSubarray().test();
+        //new MinimumStepsToOne().test();
         //new LongestIncreasingSubsequence().test();
 
         //new MaximalSquareSubmatrixConsistingOfOnes().test();

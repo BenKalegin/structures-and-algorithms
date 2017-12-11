@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class LargestSumContiguousSubarray {
     private int solve(int[] numbers) {
-        // recurrence: dp[i] = dp[i-1] + a[i]
+        // recurrence: dp[i] = a[i] + dp[i-1] > 0 ? dp[i-1] : 0
 
         int n = numbers.length;
         int[] dp = new int[n];
