@@ -6,7 +6,8 @@ import algo.dynamicprogramming.*;
 public class Main {
 
     public static void main(String[] args) {
-        new LargestSumContiguousSubarray().test();
+        new LongestRepeatedSubsequence().test();
+        //new LargestSumContiguousSubarray().test();
         //new MinimumStepsToOne().test();
         //new LongestIncreasingSubsequence().test();
 

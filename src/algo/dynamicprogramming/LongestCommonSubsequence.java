@@ -5,7 +5,7 @@ public class LongestCommonSubsequence {
     }
 
     public int find(String s1, String s2) {
-
+        // dp[i,j] =  (s1[i] == s2[j]) ? dp[i=1, j-1] + 1 : max(dp[i-1, j], dp[i, j-1])
         int m = s1.length();
         int n = s2.length();
         int state[][] = new int[m+1][n+1];
