@@ -6,7 +6,8 @@ import algo.dynamicprogramming.*;
 public class Main {
 
     public static void main(String[] args) {
-        new UglyNumbers().test();
+        new EggDroppingPuzzle().test();
+        // new UglyNumbers().test();
         //new LongestRepeatedSubsequence().test();
         //new LargestSumContiguousSubarray().test();
         //new MinimumStepsToOne().test();
