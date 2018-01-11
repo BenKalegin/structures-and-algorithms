@@ -2,11 +2,14 @@ package algo;
 
 import algo.backtrack.ChessKnightTour;
 import algo.dynamicprogramming.*;
+import algo.linkedlist.ReverseList;
 
 public class Main {
 
     public static void main(String[] args) {
-        new EggDroppingPuzzle().test();
+        new ReverseList().test();
+
+        //new EggDroppingPuzzle().test();
         // new UglyNumbers().test();
         //new LongestRepeatedSubsequence().test();
         //new LargestSumContiguousSubarray().test();
