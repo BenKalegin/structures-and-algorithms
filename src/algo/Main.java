@@ -1,15 +1,14 @@
 package algo;
 
+import algo.LinkedLists.Reverse;
 import algo.backtrack.ChessKnightTour;
 import algo.dynamicprogramming.*;
-import algo.linkedlist.ReverseList;
 
 public class Main {
 
     public static void main(String[] args) {
-        new ReverseList().test();
-
-        //new EggDroppingPuzzle().test();
+        new Reverse().test();
+        // new EggDroppingPuzzle().test();
         // new UglyNumbers().test();
         //new LongestRepeatedSubsequence().test();
         //new LargestSumContiguousSubarray().test();
