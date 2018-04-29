@@ -44,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="geeks4geeks\CheckIfABinaryTreeIsBSTOrNot.cs" />
+    <Compile Include="geeks4geeks\DeleteAGivenNodeFromASortedSinglyLinkedList.cs" />
+    <Compile Include="geeks4geeks\Design\Elevator\IFloorBoundary.cs" />
+    <Compile Include="geeks4geeks\FindTheClosestCommonAncestorsTo2NodesInA_N_ary_tree.cs" />
+    <Compile Include="geeks4geeks\ReverseLinkedList.cs" />
+    <Compile Include="geeks4geeks\SearchInSortedAndRotatedArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

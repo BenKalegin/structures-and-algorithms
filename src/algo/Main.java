@@ -3,11 +3,14 @@ package algo;
 import algo.LinkedLists.Reverse;
 import algo.backtrack.ChessKnightTour;
 import algo.dynamicprogramming.*;
+import algo.general.RemoveAlternateDuplicateChars;
+import algo.general.TenMostFrequentWords;
 
 public class Main {
 
     public static void main(String[] args) {
-        new Reverse().test();
+        new TenMostFrequentWords().test();
+        //new Reverse().test();
         // new EggDroppingPuzzle().test();
         // new UglyNumbers().test();
         //new LongestRepeatedSubsequence().test();
