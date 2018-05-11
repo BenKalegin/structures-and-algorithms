@@ -5,12 +5,13 @@ import algo.backtrack.ChessKnightTour;
 import algo.dynamicprogramming.*;
 import algo.general.Find3Sum;
 import algo.general.RemoveAlternateDuplicateChars;
+import algo.general.RemoveDupsInplace;
 import algo.general.TenMostFrequentWords;
 
 public class Main {
 
     public static void main(String[] args) {
-        new Find3Sum().test();
+        new RemoveDupsInplace().test();
         //new TenMostFrequentWords().test();
         //new Reverse().test();
         // new EggDroppingPuzzle().test();
