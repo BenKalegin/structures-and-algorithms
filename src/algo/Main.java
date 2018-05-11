@@ -3,13 +3,15 @@ package algo;
 import algo.LinkedLists.Reverse;
 import algo.backtrack.ChessKnightTour;
 import algo.dynamicprogramming.*;
+import algo.general.Find3Sum;
 import algo.general.RemoveAlternateDuplicateChars;
 import algo.general.TenMostFrequentWords;
 
 public class Main {
 
     public static void main(String[] args) {
-        new TenMostFrequentWords().test();
+        new Find3Sum().test();
+        //new TenMostFrequentWords().test();
         //new Reverse().test();
         // new EggDroppingPuzzle().test();
         // new UglyNumbers().test();
