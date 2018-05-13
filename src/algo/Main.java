@@ -2,6 +2,7 @@ package algo;
 
 import algo.LinkedLists.Reverse;
 import algo.backtrack.ChessKnightTour;
+import algo.bits.CountDistinctBinaryStringWithNonConsecutive1;
 import algo.dynamicprogramming.*;
 import algo.general.Find3Sum;
 import algo.general.RemoveAlternateDuplicateChars;
@@ -11,7 +12,7 @@ import algo.general.TenMostFrequentWords;
 public class Main {
 
     public static void main(String[] args) {
-        new RemoveDupsInplace().test();
+        new CountDistinctBinaryStringWithNonConsecutive1().test();
         //new TenMostFrequentWords().test();
         //new Reverse().test();
         // new EggDroppingPuzzle().test();
