@@ -12,7 +12,7 @@ import algo.general.TenMostFrequentWords;
 public class Main {
 
     public static void main(String[] args) {
-        new CountDistinctBinaryStringWithNonConsecutive1().test();
+        new EditDistance().test();
         //new TenMostFrequentWords().test();
         //new Reverse().test();
         // new EggDroppingPuzzle().test();
