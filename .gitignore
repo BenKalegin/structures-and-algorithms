@@ -22,3 +22,7 @@
 hs_err_pid*
 /microsoft-questions/obj/Debug
 /microsoft-questions/bin/Debug
+/fsharp/text-line-breaks/bin/Debug
+/fsharp/text-line-breaks/obj/Debug
+/fsharp/text-line-breaks/.vs/text-line-breaks/v15
+/fsharp/text-line-breaks/packages/System.ValueTuple.4.3.0
