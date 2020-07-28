@@ -8,7 +8,7 @@ namespace microsoft_questions
 	{
 		static void Main(string[] args)
         {
-			MergeOrderedLists.Test();
+			NFibonacciNumber.Test();
 			//DeleteAGivenNodeFromASortedSinglyLinkedList.Test();
 			//ReverseLinkedList.Test();
 			//SearchInSortedAndRotatedArray.Test();
