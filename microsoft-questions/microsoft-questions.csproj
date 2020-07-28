@@ -53,10 +53,12 @@
     <Compile Include="geeks4geeks\KLargestElementFromLargeArray.cs" />
     <Compile Include="geeks4geeks\ReverseLinkedList.cs" />
     <Compile Include="geeks4geeks\SearchInSortedAndRotatedArray.cs" />
+    <Compile Include="InterviewCake\CheckIfPermutationPalindrome.cs" />
     <Compile Include="InterviewCake\FindEitherLinkedListHasCycles.cs" />
     <Compile Include="InterviewCake\ImplementQueueWithTwoStacks.cs" />
     <Compile Include="InterviewCake\MergeOrderedLists.cs" />
     <Compile Include="InterviewCake\NFibonacciNumber.cs" />
+    <Compile Include="InterviewCake\ProductOfAllIntsExceptAtIndex.cs" />
     <Compile Include="InterviewCake\WebCrowlerOptimization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
