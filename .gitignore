@@ -22,3 +22,5 @@
 hs_err_pid*
 /microsoft-questions/obj/Debug
 /microsoft-questions/bin/Debug
+/microsoft-questions/.vs/microsoft-questions/v15/Server/sqlite3
+/microsoft-questions/.vs/microsoft-questions/v16/TestStore/0

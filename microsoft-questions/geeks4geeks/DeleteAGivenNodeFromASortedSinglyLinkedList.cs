@@ -12,7 +12,7 @@ namespace microsoft_questions.geeks4geeks
 			nodes.Aggregate((LinkedListNode)null, (a, c) => {
 				if (a != null)
 					a.Next = c;
-				return c;
+				return c;					
 			});
 
 			Console.WriteLine(nodes.First().Enumerate().Aggregate("", (s, n) => s + (s == "" ? "" : "-> ") + n.Payload));

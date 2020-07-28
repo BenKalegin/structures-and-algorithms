@@ -41,11 +41,12 @@ namespace microsoft_questions.geeks4geeks
 		private static int FindAncestor(TreeNode root, int p1, int p2)
 		{
 			List<TreeNode> path1 = FindPath(root, p1);
-		}
+            return 0;
+        }
 
 		private static List<TreeNode> FindPath(TreeNode node, int p1)
-		{
-			if(node.Payload == p1) return 
-		}
+        {
+            return null;
+        }
 	}
 }

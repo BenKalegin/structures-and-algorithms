@@ -1,5 +1,11 @@
 ﻿using System;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.Diagnostics;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 
 namespace microsoft_questions.geeks4geeks
 {
@@ -28,6 +34,21 @@ namespace microsoft_questions.geeks4geeks
 			// 1 3 
 			// 
 			var n31 = new BinaryIntTreeNode(null, null, 1);
+
+            var a = Assembly.GetExecutingAssembly();
+
+            string[] colors = {"house"};
+
+
+            dynamic v;
+            v = "3";
+            v = a;
+            Type t = v.GetType();
+            v = v.toUpper();
+            v = v + 3;
+
+
+			var i = colors.Max(s => s.Length);
 			var n32 = new BinaryIntTreeNode(null, null, 3);
 			var n21 = new BinaryIntTreeNode(n31, n32, 2);
 			var n22 = new BinaryIntTreeNode(null, null, 5);

@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>microsoft_questions</RootNamespace>
     <AssemblyName>microsoft-questions</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -44,11 +46,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="geeks4geeks\CheckIfABinaryTreeIsBSTOrNot.cs" />
+    <Compile Include="geeks4geeks\ConstructBstFromGivenPreorderTraversal.cs" />
     <Compile Include="geeks4geeks\DeleteAGivenNodeFromASortedSinglyLinkedList.cs" />
     <Compile Include="geeks4geeks\Design\Elevator\IFloorBoundary.cs" />
     <Compile Include="geeks4geeks\FindTheClosestCommonAncestorsTo2NodesInA_N_ary_tree.cs" />
+    <Compile Include="geeks4geeks\KLargestElementFromLargeArray.cs" />
     <Compile Include="geeks4geeks\ReverseLinkedList.cs" />
     <Compile Include="geeks4geeks\SearchInSortedAndRotatedArray.cs" />
+    <Compile Include="InterviewCake\FindEitherLinkedListHasCycles.cs" />
+    <Compile Include="InterviewCake\MergeOrderedLists.cs" />
+    <Compile Include="InterviewCake\WebCrowlerOptimization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
