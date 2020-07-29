@@ -53,6 +53,8 @@
     <Compile Include="geeks4geeks\KLargestElementFromLargeArray.cs" />
     <Compile Include="geeks4geeks\ReverseLinkedList.cs" />
     <Compile Include="geeks4geeks\SearchInSortedAndRotatedArray.cs" />
+    <Compile Include="geeks4geeks\SubArrayWithGivenSum.cs" />
+    <Compile Include="InterviewCake\CafeOrderChecker.cs" />
     <Compile Include="InterviewCake\CheckIfPermutationPalindrome.cs" />
     <Compile Include="InterviewCake\FindEitherLinkedListHasCycles.cs" />
     <Compile Include="InterviewCake\ImplementQueueWithTwoStacks.cs" />

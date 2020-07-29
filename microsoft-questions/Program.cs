@@ -8,7 +8,7 @@ namespace microsoft_questions
 	{
 		static void Main(string[] args)
         {
-			CheckIfPermutationPalindrome.Test();
+			SubArrayWithGivenSum.Test();
 			//DeleteAGivenNodeFromASortedSinglyLinkedList.Test();
 			//ReverseLinkedList.Test();
 			//SearchInSortedAndRotatedArray.Test();
