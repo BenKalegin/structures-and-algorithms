@@ -50,6 +50,7 @@
     <Compile Include="geeks4geeks\DeleteAGivenNodeFromASortedSinglyLinkedList.cs" />
     <Compile Include="geeks4geeks\Design\Elevator\IFloorBoundary.cs" />
     <Compile Include="geeks4geeks\FindTheClosestCommonAncestorsTo2NodesInA_N_ary_tree.cs" />
+    <Compile Include="geeks4geeks\FindContinuousSubArrayWithMaxSum.cs" />
     <Compile Include="geeks4geeks\KLargestElementFromLargeArray.cs" />
     <Compile Include="geeks4geeks\ReverseLinkedList.cs" />
     <Compile Include="geeks4geeks\SearchInSortedAndRotatedArray.cs" />
