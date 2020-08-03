@@ -8,10 +8,25 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>microsoft_questions</RootNamespace>
     <AssemblyName>microsoft-questions</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,9 +66,12 @@
     <Compile Include="geeks4geeks\Design\Elevator\IFloorBoundary.cs" />
     <Compile Include="geeks4geeks\FindTheClosestCommonAncestorsTo2NodesInA_N_ary_tree.cs" />
     <Compile Include="geeks4geeks\FindContinuousSubArrayWithMaxSum.cs" />
+    <Compile Include="geeks4geeks\InversionOfTheArray.cs" />
     <Compile Include="geeks4geeks\KLargestElementFromLargeArray.cs" />
     <Compile Include="geeks4geeks\MergeWithoutExtraSpace.cs" />
     <Compile Include="geeks4geeks\MissingNumberInArray.cs" />
+    <Compile Include="geeks4geeks\NumberOfPairsRaiseToPowerOf.cs" />
+    <Compile Include="geeks4geeks\RearrangeArrayAlternately.cs" />
     <Compile Include="geeks4geeks\ReverseLinkedList.cs" />
     <Compile Include="geeks4geeks\SearchInSortedAndRotatedArray.cs" />
     <Compile Include="geeks4geeks\SubArrayWithGivenSum.cs" />
@@ -71,6 +89,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
