@@ -69,6 +69,7 @@
     <Compile Include="geeks4geeks\FindContinuousSubArrayWithMaxSum.cs" />
     <Compile Include="geeks4geeks\InversionOfTheArray.cs" />
     <Compile Include="geeks4geeks\KLargestElementFromLargeArray.cs" />
+    <Compile Include="geeks4geeks\LeadersInTheArray.cs" />
     <Compile Include="geeks4geeks\MergeWithoutExtraSpace.cs" />
     <Compile Include="geeks4geeks\MissingNumberInArray.cs" />
     <Compile Include="geeks4geeks\NumberOfPairsRaiseToPowerOf.cs" />
