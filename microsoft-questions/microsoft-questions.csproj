@@ -64,6 +64,7 @@
     <Compile Include="geeks4geeks\ConstructBstFromGivenPreorderTraversal.cs" />
     <Compile Include="geeks4geeks\DeleteAGivenNodeFromASortedSinglyLinkedList.cs" />
     <Compile Include="geeks4geeks\Design\Elevator\IFloorBoundary.cs" />
+    <Compile Include="geeks4geeks\EquilibriumPoint.cs" />
     <Compile Include="geeks4geeks\FindTheClosestCommonAncestorsTo2NodesInA_N_ary_tree.cs" />
     <Compile Include="geeks4geeks\FindContinuousSubArrayWithMaxSum.cs" />
     <Compile Include="geeks4geeks\InversionOfTheArray.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="geeks4geeks\RearrangeArrayAlternately.cs" />
     <Compile Include="geeks4geeks\ReverseLinkedList.cs" />
     <Compile Include="geeks4geeks\SearchInSortedAndRotatedArray.cs" />
+    <Compile Include="geeks4geeks\SortArrayOf0s1s2s.cs" />
     <Compile Include="geeks4geeks\SubArrayWithGivenSum.cs" />
     <Compile Include="InterviewCake\CafeOrderChecker.cs" />
     <Compile Include="InterviewCake\CheckIfPermutationPalindrome.cs" />
