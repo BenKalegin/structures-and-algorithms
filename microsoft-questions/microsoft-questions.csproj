@@ -71,9 +71,11 @@
     <Compile Include="geeks4geeks\KLargestElementFromLargeArray.cs" />
     <Compile Include="geeks4geeks\LeadersInTheArray.cs" />
     <Compile Include="geeks4geeks\MergeWithoutExtraSpace.cs" />
+    <Compile Include="geeks4geeks\MinimumPlatformsForTrainSchedule.cs" />
     <Compile Include="geeks4geeks\MissingNumberInArray.cs" />
     <Compile Include="geeks4geeks\NumberOfPairsRaiseToPowerOf.cs" />
     <Compile Include="geeks4geeks\RearrangeArrayAlternately.cs" />
+    <Compile Include="geeks4geeks\KthSmallestElement.cs" />
     <Compile Include="geeks4geeks\ReverseLinkedList.cs" />
     <Compile Include="geeks4geeks\SearchInSortedAndRotatedArray.cs" />
     <Compile Include="geeks4geeks\SortArrayOf0s1s2s.cs" />

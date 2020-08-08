@@ -6,9 +6,10 @@ namespace microsoft_questions
 {
 	class Program
 	{
+		// Given an array arr[] of positive integers of size N. Reverse every sub-array of K group elements.
 		static void Main(string[] args)
         {
-            LeadersInTheArray.Test();
+            KthSmallestElement.Test();
 			//DeleteAGivenNodeFromASortedSinglyLinkedList.Test();
 			//ReverseLinkedList.Test();
 			//SearchInSortedAndRotatedArray.Test();
@@ -16,5 +17,7 @@ namespace microsoft_questions
 			Console.WriteLine("press any key");
 			Console.ReadKey();
 		}
+
+
 	}
 }
