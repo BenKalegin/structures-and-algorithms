@@ -54,28 +54,29 @@ namespace microsoft_questions.geeks4geeks
 			}
 		}
 
-		private static LinkedListNode Reverse2(LinkedListNode head)
-		{
-			LinkedListNode oldHead = head;
-			LinkedListNode newHead = null;
-
-			// 1->2->3->4
-			// 1<-2 3->4 
-			// 1<-2<-3 4->
-			// 
-
-
-			while (oldHead != null)
-			{
-				var pendingOldHead = oldHead.Next;
-   				oldHead.Next = newHead;
-				newHead = oldHead;
-				oldHead = pendingOldHead;
-			}
-
-			return newHead;
-		}
 		private static LinkedListNode Reverse(LinkedListNode head)
+		{
+			// 1->2->3->4->5
+			// 1<-2 3->4->5
+			// 1<-2<-3 4->5
+
+            var current = head;
+            LinkedListNode reversedHead = null;
+
+            while (current != null)
+            {
+                var wasHead = reversedHead;
+				reversedHead = current;
+                current = current.Next;
+                reversedHead.Next = wasHead;
+            }
+
+            return reversedHead;
+        }
+
+
+
+		private static LinkedListNode Reverse2(LinkedListNode head)
 		{
 			// 1->2->3->4
 			// 1<-2 3->4 
