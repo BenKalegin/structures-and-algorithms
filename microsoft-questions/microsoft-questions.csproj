@@ -71,6 +71,7 @@
     <Compile Include="geeks4geeks\KLargestElementFromLargeArray.cs" />
     <Compile Include="geeks4geeks\LargestNumberFormedFromAnArray.cs" />
     <Compile Include="geeks4geeks\LeadersInTheArray.cs" />
+    <Compile Include="geeks4geeks\LeftViewOfBinaryTree.cs" />
     <Compile Include="geeks4geeks\MergeWithoutExtraSpace.cs" />
     <Compile Include="geeks4geeks\MinimumPlatformsForTrainSchedule.cs" />
     <Compile Include="geeks4geeks\MissingNumberInArray.cs" />
