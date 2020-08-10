@@ -60,6 +60,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="geeks4geeks\Graph\BreadthFirstSearchGraph.cs" />
+    <Compile Include="geeks4geeks\Graph\DeepFirstSearchGraph.cs" />
+    <Compile Include="geeks4geeks\Graph\UnDirectionalGraph.cs" />
     <Compile Include="geeks4geeks\Hashing\RelativeSorting.cs" />
     <Compile Include="geeks4geeks\Hashing\SortElementsOfAnArrayByFrequency.cs" />
     <Compile Include="geeks4geeks\Heaps\Heap.cs" />
