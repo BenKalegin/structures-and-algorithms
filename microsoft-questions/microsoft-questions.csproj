@@ -75,6 +75,7 @@
     <Compile Include="geeks4geeks\MergeWithoutExtraSpace.cs" />
     <Compile Include="geeks4geeks\MinimumPlatformsForTrainSchedule.cs" />
     <Compile Include="geeks4geeks\MissingNumberInArray.cs" />
+    <Compile Include="geeks4geeks\Node.cs" />
     <Compile Include="geeks4geeks\NumberOfPairsRaiseToPowerOf.cs" />
     <Compile Include="geeks4geeks\ParenthesisChecker.cs" />
     <Compile Include="geeks4geeks\PythagoreanTriplet.cs" />

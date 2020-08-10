@@ -9,7 +9,7 @@ namespace microsoft_questions
 		// Given an array arr[] of positive integers of size N. Reverse every sub-array of K group elements.
 		static void Main(string[] args)
         {
-            LeftViewOfBinaryTree.Test();
+            CheckIfABinaryTreeIsBstOrNot.Test();
 			//DeleteAGivenNodeFromASortedSinglyLinkedList.Test();
 			//ReverseLinkedList.Test();
 			//SearchInSortedAndRotatedArray.Test();
