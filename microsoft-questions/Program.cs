@@ -1,5 +1,6 @@
 ﻿using System;
 using microsoft_questions.geeks4geeks;
+using microsoft_questions.geeks4geeks.Recurse;
 using microsoft_questions.InterviewCake;
 
 namespace microsoft_questions
@@ -9,7 +10,7 @@ namespace microsoft_questions
 		// Given an array arr[] of positive integers of size N. Reverse every sub-array of K group elements.
 		static void Main(string[] args)
         {
-            CheckIfABinaryTreeIsBstOrNot.Test();
+            NumberOfPaths.Test();
 			//DeleteAGivenNodeFromASortedSinglyLinkedList.Test();
 			//ReverseLinkedList.Test();
 			//SearchInSortedAndRotatedArray.Test();

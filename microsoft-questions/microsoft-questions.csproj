@@ -60,34 +60,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="geeks4geeks\CheckIfABinaryTreeIsBSTOrNot.cs" />
-    <Compile Include="geeks4geeks\ConstructBstFromGivenPreorderTraversal.cs" />
-    <Compile Include="geeks4geeks\DeleteAGivenNodeFromASortedSinglyLinkedList.cs" />
+    <Compile Include="geeks4geeks\Heaps\Heap.cs" />
+    <Compile Include="geeks4geeks\Recurse\NumberOfPaths.cs" />
+    <Compile Include="geeks4geeks\Trees\BottomViewOfBinaryTree.cs" />
+    <Compile Include="geeks4geeks\Trees\CheckIfABinaryTreeIsBSTOrNot.cs" />
+    <Compile Include="geeks4geeks\Trees\ConstructBstFromGivenPreorderTraversal.cs" />
+    <Compile Include="geeks4geeks\LinkedLists\DeleteAGivenNodeFromASortedSinglyLinkedList.cs" />
     <Compile Include="geeks4geeks\Design\Elevator\IFloorBoundary.cs" />
-    <Compile Include="geeks4geeks\EquilibriumPoint.cs" />
-    <Compile Include="geeks4geeks\FindTheClosestCommonAncestorsTo2NodesInA_N_ary_tree.cs" />
-    <Compile Include="geeks4geeks\FindContinuousSubArrayWithMaxSum.cs" />
-    <Compile Include="geeks4geeks\InversionOfTheArray.cs" />
-    <Compile Include="geeks4geeks\KLargestElementFromLargeArray.cs" />
-    <Compile Include="geeks4geeks\LargestNumberFormedFromAnArray.cs" />
-    <Compile Include="geeks4geeks\LeadersInTheArray.cs" />
-    <Compile Include="geeks4geeks\LeftViewOfBinaryTree.cs" />
-    <Compile Include="geeks4geeks\MergeWithoutExtraSpace.cs" />
-    <Compile Include="geeks4geeks\MinimumPlatformsForTrainSchedule.cs" />
-    <Compile Include="geeks4geeks\MissingNumberInArray.cs" />
-    <Compile Include="geeks4geeks\Node.cs" />
-    <Compile Include="geeks4geeks\NumberOfPairsRaiseToPowerOf.cs" />
-    <Compile Include="geeks4geeks\ParenthesisChecker.cs" />
-    <Compile Include="geeks4geeks\PythagoreanTriplet.cs" />
-    <Compile Include="geeks4geeks\RearrangeArrayAlternately.cs" />
-    <Compile Include="geeks4geeks\KthSmallestElement.cs" />
-    <Compile Include="geeks4geeks\ReverseLinkedList.cs" />
-    <Compile Include="geeks4geeks\ReverseWordsInString.cs" />
-    <Compile Include="geeks4geeks\SearchInSortedAndRotatedArray.cs" />
-    <Compile Include="geeks4geeks\SortArrayOf0s1s2s.cs" />
-    <Compile Include="geeks4geeks\StockBuyAndSell.cs" />
-    <Compile Include="geeks4geeks\SubArrayWithGivenSum.cs" />
-    <Compile Include="geeks4geeks\TrappingRainWater.cs" />
+    <Compile Include="geeks4geeks\Arrays\EquilibriumPoint.cs" />
+    <Compile Include="geeks4geeks\Heaps\FindMedianInAStream.cs" />
+    <Compile Include="geeks4geeks\Trees\FindTheClosestCommonAncestorsTo2NodesInA_N_ary_tree.cs" />
+    <Compile Include="geeks4geeks\Arrays\FindContinuousSubArrayWithMaxSum.cs" />
+    <Compile Include="geeks4geeks\Arrays\InversionOfTheArray.cs" />
+    <Compile Include="geeks4geeks\Heaps\KLargestElementFromLargeArray.cs" />
+    <Compile Include="geeks4geeks\Arrays\LargestNumberFormedFromAnArray.cs" />
+    <Compile Include="geeks4geeks\Arrays\LeadersInTheArray.cs" />
+    <Compile Include="geeks4geeks\Trees\LeftViewOfBinaryTree.cs" />
+    <Compile Include="geeks4geeks\Arrays\MergeWithoutExtraSpace.cs" />
+    <Compile Include="geeks4geeks\Arrays\MinimumPlatformsForTrainSchedule.cs" />
+    <Compile Include="geeks4geeks\Arrays\MissingNumberInArray.cs" />
+    <Compile Include="geeks4geeks\Trees\Node.cs" />
+    <Compile Include="geeks4geeks\Arrays\NumberOfPairsRaiseToPowerOf.cs" />
+    <Compile Include="geeks4geeks\StacksQueues\ParenthesisChecker.cs" />
+    <Compile Include="geeks4geeks\Arrays\RearrangeArrayAlternately.cs" />
+    <Compile Include="geeks4geeks\Heaps\KthSmallestElement.cs" />
+    <Compile Include="geeks4geeks\LinkedLists\ReverseLinkedList.cs" />
+    <Compile Include="geeks4geeks\Arrays\ReverseWordsInString.cs" />
+    <Compile Include="geeks4geeks\Arrays\SearchInSortedAndRotatedArray.cs" />
+    <Compile Include="geeks4geeks\Arrays\SortArrayOf0s1s2s.cs" />
+    <Compile Include="geeks4geeks\Arrays\StockBuyAndSell.cs" />
+    <Compile Include="geeks4geeks\Arrays\SubArrayWithGivenSum.cs" />
+    <Compile Include="geeks4geeks\Arrays\TrappingRainWater.cs" />
+    <Compile Include="geeks4geeks\Trees\VerticalTraversalOfBinaryTree.cs" />
     <Compile Include="InterviewCake\CafeOrderChecker.cs" />
     <Compile Include="InterviewCake\CheckIfPermutationPalindrome.cs" />
     <Compile Include="InterviewCake\FindEitherLinkedListHasCycles.cs" />
@@ -114,5 +118,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
