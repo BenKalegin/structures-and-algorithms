@@ -1,5 +1,6 @@
 ﻿using System;
 using microsoft_questions.geeks4geeks;
+using microsoft_questions.geeks4geeks.DP;
 using microsoft_questions.geeks4geeks.Graph;
 using microsoft_questions.geeks4geeks.Greedy;
 using microsoft_questions.geeks4geeks.Hashing;
@@ -13,7 +14,7 @@ namespace microsoft_questions
 		// Given an array arr[] of positive integers of size N. Reverse every sub-array of K group elements.
 		static void Main(string[] args)
         {
-            ActivitySelection.Test();
+            MinimumOperations.Test();
 			//DeleteAGivenNodeFromASortedSinglyLinkedList.Test();
 			//ReverseLinkedList.Test();
 			//SearchInSortedAndRotatedArray.Test();
