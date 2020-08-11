@@ -30,8 +30,8 @@ namespace microsoft_questions.geeks4geeks
 
         private static int FindMedian(int[] values)
         {
-            var smallHalf = new Heap((i1, i2) => i1 >= i2, new int[0], 0);
-            var largeHalf = new Heap((i1, i2) => i1 < i2, new int[0], 0);
+            var smallHalf = new Heap<int>((i1, i2) => i1 >= i2, new int[0], 0);
+            var largeHalf = new Heap<int>((i1, i2) => i1 < i2, new int[0], 0);
 
             foreach(int value in values)
             {
@@ -51,7 +51,7 @@ namespace microsoft_questions.geeks4geeks
 
         }
 
-        private static void AddToHeaps(int value, Heap smallHalf, Heap largeHalf)
+        private static void AddToHeaps(int value, Heap<int> smallHalf, Heap<int> largeHalf)
         {
             if (value < smallHalf.Peek().GetValueOrDefault(int.MaxValue))
                 smallHalf.Insert(value);

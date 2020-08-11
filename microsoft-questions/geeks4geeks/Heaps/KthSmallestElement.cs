@@ -52,7 +52,7 @@ namespace microsoft_questions.geeks4geeks
         private static int? FindUsingMinHeap(int[] values, int k)
         {
             int? result = 0;
-            var heap = new Heap((i1, i2) => i1 < i2, values, values.Length);
+            var heap = new Heap<int>((i1, i2) => i1 < i2, values, values.Length);
 
             for (int j = 0; j < k; j++)
             {
@@ -64,7 +64,7 @@ namespace microsoft_questions.geeks4geeks
         private static int? FindUsingMaxHeap(int[] values, int k)
         {
             // max-heap
-            var heap = new Heap((i1, i2) => i1 > i2, values, k);
+            var heap = new Heap<int>((i1, i2) => i1 > i2, values, k);
             for (int i = k; i < values.Length; i++)
             {
                 if (!(heap.Peek() > values[i])) 

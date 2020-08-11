@@ -3,14 +3,14 @@ using System.Linq;
 
 namespace microsoft_questions.geeks4geeks
 {
-    internal class Heap
+    internal class Heap<T> where T: struct
     {
-        private readonly Func<int, int, bool> comparator;
-        int[] heap;
+        private readonly Func<T, T, bool> comparator;
+        T[] heap;
         private int count;
         public int Count => count;
 
-        public Heap(Func<int, int, bool> comparator, int[] initialPopulation, int notMoreThan)
+        public Heap(Func<T, T, bool> comparator, T[] initialPopulation, int notMoreThan)
         {
             this.comparator = comparator;
             var initialSize = Math.Min(notMoreThan, initialPopulation.Length);
@@ -20,7 +20,7 @@ namespace microsoft_questions.geeks4geeks
                 binaryCapacity <<= 1;
             }
 
-            heap = new int[binaryCapacity-1];
+            heap = new T[binaryCapacity-1];
             Array.Copy(initialPopulation, heap, initialSize);
             count = initialSize;
             for (int i = heap.Length / 2 -1; i >= 0; i--)
@@ -28,7 +28,7 @@ namespace microsoft_questions.geeks4geeks
 
         }
 
-        public void Insert(int element)
+        public void Insert(T element)
         {
             EnsureHeapSize();
             heap[count] = element;
@@ -36,13 +36,13 @@ namespace microsoft_questions.geeks4geeks
             count++;
         }
 
-        public int? Peek()
+        public T? Peek()
         {
-            return heap?.Any() == true ? heap.FirstOrDefault(): (int?) null;
+            return heap?.Any() == true ? heap.FirstOrDefault(): (T?) null;
         }
-        public int? Extract()
+        public T? Extract()
         {
-            if (heap?.Any() != true)
+            if (heap?.Any() != true || count == 0)
             {
                 return null;
             }
@@ -52,7 +52,7 @@ namespace microsoft_questions.geeks4geeks
                 return heap[--count];
             }
 
-            int result = heap[0];
+            T result = heap[0];
             heap[0] = heap[--count];
             Percolate(0);
             return result;
