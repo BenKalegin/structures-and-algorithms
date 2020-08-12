@@ -14,7 +14,7 @@ namespace microsoft_questions
 		// Given an array arr[] of positive integers of size N. Reverse every sub-array of K group elements.
 		static void Main(string[] args)
         {
-            EggDroppingPuzzle.Test();
+            LongestCommonSubstring.Test();
 			//DeleteAGivenNodeFromASortedSinglyLinkedList.Test();
 			//ReverseLinkedList.Test();
 			//SearchInSortedAndRotatedArray.Test();
