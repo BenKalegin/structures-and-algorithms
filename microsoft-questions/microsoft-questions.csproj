@@ -60,6 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="geeks4geeks\Arrays\FindMissingAndRepeating.cs" />
     <Compile Include="geeks4geeks\Backtracking\NQueenProblem.cs" />
     <Compile Include="geeks4geeks\Bits\FindFirstSetBit.cs" />
     <Compile Include="geeks4geeks\DivideAndConquer\SearchInARotatedArray.cs" />
