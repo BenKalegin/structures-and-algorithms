@@ -1,11 +1,6 @@
 ﻿using System;
-using microsoft_questions.geeks4geeks;
-using microsoft_questions.geeks4geeks.DP;
-using microsoft_questions.geeks4geeks.Graph;
-using microsoft_questions.geeks4geeks.Greedy;
-using microsoft_questions.geeks4geeks.Hashing;
-using microsoft_questions.geeks4geeks.Recurse;
-using microsoft_questions.InterviewCake;
+using microsoft_questions.geeks4geeks.Backtracking;
+using microsoft_questions.geeks4geeks.DivideAndConquer;
 
 namespace microsoft_questions
 {
@@ -14,7 +9,7 @@ namespace microsoft_questions
 		// Given an array arr[] of positive integers of size N. Reverse every sub-array of K group elements.
 		static void Main(string[] args)
         {
-            LongestCommonSubstring.Test();
+            NQueenProblem.Test();
 			//DeleteAGivenNodeFromASortedSinglyLinkedList.Test();
 			//ReverseLinkedList.Test();
 			//SearchInSortedAndRotatedArray.Test();
