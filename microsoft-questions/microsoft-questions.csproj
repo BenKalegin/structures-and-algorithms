@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="geeks4geeks\Backtracking\NQueenProblem.cs" />
+    <Compile Include="geeks4geeks\Bits\FindFirstSetBit.cs" />
     <Compile Include="geeks4geeks\DivideAndConquer\SearchInARotatedArray.cs" />
     <Compile Include="geeks4geeks\DP\EggDroppingPuzzle.cs" />
     <Compile Include="geeks4geeks\DP\LongestCommonSubstring.cs" />
