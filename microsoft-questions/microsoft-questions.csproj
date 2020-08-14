@@ -77,6 +77,7 @@
     <Compile Include="geeks4geeks\Hashing\SortElementsOfAnArrayByFrequency.cs" />
     <Compile Include="geeks4geeks\Heaps\Heap.cs" />
     <Compile Include="geeks4geeks\Recurse\NumberOfPaths.cs" />
+    <Compile Include="geeks4geeks\Strings\PermutationsOfAGivenString.cs" />
     <Compile Include="geeks4geeks\Trees\BottomViewOfBinaryTree.cs" />
     <Compile Include="geeks4geeks\Trees\CheckIfABinaryTreeIsBSTOrNot.cs" />
     <Compile Include="geeks4geeks\Trees\ConstructBstFromGivenPreorderTraversal.cs" />
