@@ -76,6 +76,7 @@
     <Compile Include="geeks4geeks\Hashing\RelativeSorting.cs" />
     <Compile Include="geeks4geeks\Hashing\SortElementsOfAnArrayByFrequency.cs" />
     <Compile Include="geeks4geeks\Heaps\Heap.cs" />
+    <Compile Include="geeks4geeks\LinkedLists\ReverseALinkedListInGroupsOfGivenSize.cs" />
     <Compile Include="geeks4geeks\Recurse\NumberOfPaths.cs" />
     <Compile Include="geeks4geeks\Strings\LongestPalindromeInAString.cs" />
     <Compile Include="geeks4geeks\Strings\PermutationsOfAGivenString.cs" />
