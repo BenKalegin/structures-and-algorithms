@@ -13,6 +13,43 @@ namespace microsoft_questions.geeks4geeks.LinkedLists
         {
             this.Value = value;
         }
+
+        public static int[] ConvertListToArray(Node root)
+        {
+            var result = new List<int>();
+            while (root != null)
+            {
+                result.Add(root.Value);
+                root = root.Next;
+            }
+
+            return result.ToArray();
+        }
+
+        public static Node ConvertArrayToList(int[] input)
+        {
+            Node root = null;
+            Node last = null;
+            foreach (var i in input)
+            {
+                var node = new Node(i);
+                if (root == null)
+                {
+                    root = node;
+                    last = node;
+                }
+                else
+                {
+                    last.Next = node;
+                    last = node;
+                }
+            }
+
+            return root;
+        }
+
+
+
     }
 
     class ReverseALinkedListInGroupsOfGivenSize
@@ -25,8 +62,8 @@ namespace microsoft_questions.geeks4geeks.LinkedLists
 
         private static void AssertResult(int[] input, int k, int[] expected)
         {
-            Node root = ConvertArrayToList(input);
-            var actual = ConvertListToArray(Reverse(root, k));
+            Node root = Node.ConvertArrayToList(input);
+            var actual = Node.ConvertListToArray(Reverse(root, k));
             if (!actual.SequenceEqual(expected))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -35,20 +72,6 @@ namespace microsoft_questions.geeks4geeks.LinkedLists
                 Console.ResetColor();
             }
         }
-
-        private static int[] ConvertListToArray(Node root)
-        {
-            var result = new List<int>();
-            while (root != null)
-            {
-                result.Add(root.Value);
-                root = root.Next;
-            }
-
-            return result.ToArray();
-        }
-
-
 
 
         private static (Node groupStart, Node groupEnd, Node nextGroup) ReverseGroup(Node root, int k)
@@ -89,26 +112,5 @@ namespace microsoft_questions.geeks4geeks.LinkedLists
             return result;
         }
 
-        private static Node ConvertArrayToList(int[] input)
-        {
-            Node root = null;
-            Node last = null;
-            foreach (var i in input)
-            {
-                var node = new Node(i);
-                if (root == null)
-                {
-                    root = node;
-                    last = node;
-                }
-                else
-                {
-                    last.Next = node;
-                    last = node;
-                }
-            }
-
-            return root;
-        }
     }
 }

@@ -77,6 +77,7 @@
     <Compile Include="geeks4geeks\Hashing\SortElementsOfAnArrayByFrequency.cs" />
     <Compile Include="geeks4geeks\Heaps\Heap.cs" />
     <Compile Include="geeks4geeks\Heaps\RearrangeCharacters.cs" />
+    <Compile Include="geeks4geeks\LinkedLists\DeleteWithoutHeadPointer.cs" />
     <Compile Include="geeks4geeks\LinkedLists\ReverseALinkedListInGroupsOfGivenSize.cs" />
     <Compile Include="geeks4geeks\Recurse\NumberOfPaths.cs" />
     <Compile Include="geeks4geeks\StacksQueues\StackUsing2Queues.cs" />
