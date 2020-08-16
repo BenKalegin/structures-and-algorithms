@@ -53,33 +53,24 @@ namespace microsoft_questions.geeks4geeks.LinkedLists
 
         private static (Node groupStart, Node groupEnd, Node nextGroup) ReverseGroup(Node root, int k)
         {
-            Stack<int> group = new Stack<int>();
+            // A -> B -> C -> D
+            // C -> B -> A    D -> E -> F
 
-            Node nextGroup = root;
 
-            for (int i = 0; i < k; i++)
+            Node newRoot = null;                      // null
+            Node oldRoot = root;                      // null    
+
+            for(int i = 0; i < k; i++)
             {
-                group.Push(nextGroup.Value);
-                nextGroup = nextGroup.Next;
-
-                if (nextGroup == null)
+                if (oldRoot == null)
                     break;
+                var nextOldRoot = oldRoot.Next;       // next = B  
+                oldRoot.Next = newRoot;
+                newRoot = oldRoot;               
+                oldRoot = nextOldRoot;
             }
 
-            if (!group.Any())
-                // root is null
-                return (null, null, null);
-
-            var groupStart = new Node(group.Pop());
-            var nextInGroup = groupStart;
-            while (group.Any())
-            {
-                var n = new Node(group.Pop());
-                nextInGroup.Next = n;
-                nextInGroup = n;
-            }
-
-            return (groupStart, nextInGroup, nextGroup);
+            return (newRoot, root, oldRoot);
         }
 
         private static Node Reverse(Node root, int k)
@@ -96,19 +87,6 @@ namespace microsoft_questions.geeks4geeks.LinkedLists
             }
 
             return result;
-            // k = 3
-
-            // A -> B -> C -> D -> E -> F
-            // stack A, B. Make C root. Pop and assign stack
-
-
-            // now n points to next group or null
-
-
-            // here we have C -> B -> A  LAST=D -> E -> F
-
-
-            // C -> B -> A -> F -> E -> D
         }
 
         private static Node ConvertArrayToList(int[] input)
