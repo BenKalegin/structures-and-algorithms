@@ -10,8 +10,8 @@ namespace microsoft_questions.InterviewCake
     {
         class QueueMadeOfStacks<T>
         {
-            private Stack<T> stack1 = new Stack<T>();
-            private Stack<T> stack2 = new Stack<T>();
+            private readonly Stack<T> stack1 = new Stack<T>();
+            private readonly Stack<T> stack2 = new Stack<T>();
 
 
 
