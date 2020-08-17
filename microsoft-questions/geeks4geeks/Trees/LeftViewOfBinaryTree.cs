@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 
@@ -29,9 +30,12 @@ namespace microsoft_questions.geeks4geeks
             return string.Join(" ", sb);
         }
 
+        static NumberFormatInfo format = new NumberFormatInfo(){NegativeSign = "-"};
+
+
         internal static Node ReadTree(string s)
         {
-            var data = new Queue<int?>(s.Split().Select(s1 => s1 == "N" ? (int?) null : int.Parse(s1)));
+            var data = new Queue<int?>(s.Split().Select(s1 => s1 == "N" ? (int?) null : int.Parse(s1, format)));
 
             if (!data.Any())
                 return null;
