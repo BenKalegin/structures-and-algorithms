@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="geeks4geeks\Arrays\FindMissingAndRepeating.cs" />
+    <Compile Include="geeks4geeks\Arrays\MergeKSortedArrays.cs" />
     <Compile Include="geeks4geeks\Backtracking\NQueenProblem.cs" />
     <Compile Include="geeks4geeks\Bits\FindFirstSetBit.cs" />
     <Compile Include="geeks4geeks\DivideAndConquer\SearchInARotatedArray.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="geeks4geeks\Arrays\MergeWithoutExtraSpace.cs" />
     <Compile Include="geeks4geeks\Arrays\MinimumPlatformsForTrainSchedule.cs" />
     <Compile Include="geeks4geeks\Arrays\MissingNumberInArray.cs" />
+    <Compile Include="geeks4geeks\Trees\MirrorTree.cs" />
     <Compile Include="geeks4geeks\Trees\Node.cs" />
     <Compile Include="geeks4geeks\Arrays\NumberOfPairsRaiseToPowerOf.cs" />
     <Compile Include="geeks4geeks\StacksQueues\ParenthesisChecker.cs" />
