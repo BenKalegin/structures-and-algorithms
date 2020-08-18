@@ -99,6 +99,7 @@
     <Compile Include="geeks4geeks\Heaps\KLargestElementFromLargeArray.cs" />
     <Compile Include="geeks4geeks\Arrays\LargestNumberFormedFromAnArray.cs" />
     <Compile Include="geeks4geeks\Arrays\LeadersInTheArray.cs" />
+    <Compile Include="geeks4geeks\Trees\FixTwoNodesOfBst.cs" />
     <Compile Include="geeks4geeks\Trees\LeftViewOfBinaryTree.cs" />
     <Compile Include="geeks4geeks\Arrays\MergeWithoutExtraSpace.cs" />
     <Compile Include="geeks4geeks\Arrays\MinimumPlatformsForTrainSchedule.cs" />
