@@ -83,6 +83,7 @@
     <Compile Include="geeks4geeks\Recurse\NumberOfPaths.cs" />
     <Compile Include="geeks4geeks\StacksQueues\StackUsing2Queues.cs" />
     <Compile Include="geeks4geeks\Strings\DesignUrlShortener.cs" />
+    <Compile Include="geeks4geeks\Strings\LongestEvenLengthSubstring.cs" />
     <Compile Include="geeks4geeks\Strings\LongestPalindromeInAString.cs" />
     <Compile Include="geeks4geeks\Strings\PermutationsOfAGivenString.cs" />
     <Compile Include="geeks4geeks\Trees\BottomViewOfBinaryTree.cs" />
