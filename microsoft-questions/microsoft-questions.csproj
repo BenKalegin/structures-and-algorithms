@@ -70,6 +70,7 @@
     <Compile Include="geeks4geeks\DP\MaxLengthChain.cs" />
     <Compile Include="geeks4geeks\DP\MinimumNumberOfCoins.cs" />
     <Compile Include="geeks4geeks\DP\MinimumOperations.cs" />
+    <Compile Include="geeks4geeks\DP\OptimalStrategyForAGame.cs" />
     <Compile Include="geeks4geeks\DP\PerfectSumProblem.cs" />
     <Compile Include="geeks4geeks\Graph\BreadthFirstSearchGraph.cs" />
     <Compile Include="geeks4geeks\Graph\DeepFirstSearchGraph.cs" />
