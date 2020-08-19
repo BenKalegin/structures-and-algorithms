@@ -107,6 +107,7 @@
     <Compile Include="geeks4geeks\Arrays\MergeWithoutExtraSpace.cs" />
     <Compile Include="geeks4geeks\Arrays\MinimumPlatformsForTrainSchedule.cs" />
     <Compile Include="geeks4geeks\Arrays\MissingNumberInArray.cs" />
+    <Compile Include="geeks4geeks\Trees\MaximumPathSumBetween2LeafNodes.cs" />
     <Compile Include="geeks4geeks\Trees\MergeTwoBST.cs" />
     <Compile Include="geeks4geeks\Trees\MirrorTree.cs" />
     <Compile Include="geeks4geeks\Trees\Node.cs" />

@@ -1,5 +1,8 @@
-﻿namespace microsoft_questions.geeks4geeks
+﻿using System.Diagnostics;
+
+namespace microsoft_questions.geeks4geeks
 {
+    [DebuggerDisplay("{" + nameof(Data) + "}")]
     class Node
     {
         internal int Data;
