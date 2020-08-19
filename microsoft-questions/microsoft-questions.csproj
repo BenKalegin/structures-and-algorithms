@@ -70,6 +70,7 @@
     <Compile Include="geeks4geeks\DP\MaxLengthChain.cs" />
     <Compile Include="geeks4geeks\DP\MinimumNumberOfCoins.cs" />
     <Compile Include="geeks4geeks\DP\MinimumOperations.cs" />
+    <Compile Include="geeks4geeks\DP\PerfectSumProblem.cs" />
     <Compile Include="geeks4geeks\Graph\BreadthFirstSearchGraph.cs" />
     <Compile Include="geeks4geeks\Graph\DeepFirstSearchGraph.cs" />
     <Compile Include="geeks4geeks\Graph\UnDirectionalGraph.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="geeks4geeks\Heaps\Heap.cs" />
     <Compile Include="geeks4geeks\Heaps\RearrangeCharacters.cs" />
     <Compile Include="geeks4geeks\LinkedLists\DeleteWithoutHeadPointer.cs" />
+    <Compile Include="geeks4geeks\LinkedLists\ReorderList.cs" />
     <Compile Include="geeks4geeks\LinkedLists\ReverseALinkedListInGroupsOfGivenSize.cs" />
     <Compile Include="geeks4geeks\Recurse\NumberOfPaths.cs" />
     <Compile Include="geeks4geeks\StacksQueues\StackUsing2Queues.cs" />
