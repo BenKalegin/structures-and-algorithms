@@ -61,11 +61,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="geeks4geeks\Arrays\FindMissingAndRepeating.cs" />
+    <Compile Include="geeks4geeks\Arrays\KeyPair.cs" />
     <Compile Include="geeks4geeks\Arrays\MergeKSortedArrays.cs" />
     <Compile Include="geeks4geeks\Backtracking\NQueenProblem.cs" />
     <Compile Include="geeks4geeks\Bits\FindFirstSetBit.cs" />
     <Compile Include="geeks4geeks\DivideAndConquer\SearchInARotatedArray.cs" />
     <Compile Include="geeks4geeks\DP\EggDroppingPuzzle.cs" />
+    <Compile Include="geeks4geeks\DP\LongestBitonicSubsequence.cs" />
     <Compile Include="geeks4geeks\DP\LongestCommonSubstring.cs" />
     <Compile Include="geeks4geeks\DP\MaxLengthChain.cs" />
     <Compile Include="geeks4geeks\DP\MinimumNumberOfCoins.cs" />
