@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="geeks4geeks\Arrays\FindMissingAndRepeating.cs" />
     <Compile Include="geeks4geeks\Arrays\KeyPair.cs" />
+    <Compile Include="geeks4geeks\Arrays\MajorityElement.cs" />
     <Compile Include="geeks4geeks\Arrays\MergeKSortedArrays.cs" />
     <Compile Include="geeks4geeks\Backtracking\NQueenProblem.cs" />
     <Compile Include="geeks4geeks\Bits\FindFirstSetBit.cs" />
