@@ -28,15 +28,15 @@ namespace microsoft_questions.geeks4geeks.Trees
             }
         }
 
-        private static void Mirror(Node node)
+        private static void Mirror(Tree tree)
         {
-            if (node == null)
+            if (tree == null)
                 return;
-            var swap = node.Left;
-            node.Left = node.Right;
-            node.Right = swap;
-            Mirror(node.Left);
-            Mirror(node.Right);
+            var swap = tree.l;
+            tree.l = tree.r;
+            tree.r = swap;
+            Mirror(tree.l);
+            Mirror(tree.r);
         }
     }
 }

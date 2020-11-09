@@ -22,7 +22,7 @@ namespace microsoft_questions.geeks4geeks.Trees
             }
         }
 
-        private static int FindSubtrees(Node root, int sum)
+        private static int FindSubtrees(Tree root, int sum)
         {
             // go deep first
 
@@ -32,12 +32,12 @@ namespace microsoft_questions.geeks4geeks.Trees
             return count;
         }
 
-        private static int SummarizeNode(Node root, ref int count, int sum)
+        private static int SummarizeNode(Tree root, ref int count, int sum)
         {
             if (root == null)
                 return 0;
 
-            var result = SummarizeNode(root.Left, ref count, sum) + SummarizeNode(root.Right, ref count, sum) + root.Data;
+            var result = SummarizeNode(root.l, ref count, sum) + SummarizeNode(root.r, ref count, sum) + root.x;
             if (result == sum)
                 count++;
             return result;

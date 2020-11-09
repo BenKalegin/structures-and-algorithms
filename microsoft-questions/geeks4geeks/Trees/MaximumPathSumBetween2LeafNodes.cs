@@ -27,26 +27,26 @@ namespace microsoft_questions.geeks4geeks.Trees
             }
         }
 
-        private static int FindMaxSum(Node root)
+        private static int FindMaxSum(Tree root)
         {
             return Traverse(root).maxPath;
         }
 
-        private static (int maxDepth, int maxPath) Traverse(Node node)
+        private static (int maxDepth, int maxPath) Traverse(Tree tree)
         {
-            if (node == null)
+            if (tree == null)
                 return (int.MinValue, int.MinValue);
 
-            if (node.Left == null && node.Right == null)
-                return (node.Data, int.MinValue);
+            if (tree.l == null && tree.r == null)
+                return (tree.x, int.MinValue);
 
-            var left = Traverse(node.Left); 
-            var right = Traverse(node.Right);
+            var left = Traverse(tree.l); 
+            var right = Traverse(tree.r);
 
             var bestChild = left.maxDepth > right.maxDepth ? left : right;
 
-            var maxDepth = node.Data + bestChild.maxDepth;
-            var maxPath = new[] {left.maxPath, right.maxPath, left.maxDepth + right.maxDepth + node.Data}.Max();
+            var maxDepth = tree.x + bestChild.maxDepth;
+            var maxPath = new[] {left.maxPath, right.maxPath, left.maxDepth + right.maxDepth + tree.x}.Max();
 
             return (maxDepth, maxPath);
         }

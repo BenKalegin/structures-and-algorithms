@@ -30,7 +30,7 @@ namespace microsoft_questions.geeks4geeks.Trees
             }
         }
 
-        private static string Merge(Node root1, Node root2)
+        private static string Merge(Tree root1, Tree root2)
         {
             // convert to sorted array, merge sort, convert back to tree
             var array1 = FlattenTree(root1);
@@ -40,22 +40,22 @@ namespace microsoft_questions.geeks4geeks.Trees
             return TreeReader.WriteTree(root);
         }
 
-        private static Node BuildTreeFromArray(int[] mergedArray)
+        private static Tree BuildTreeFromArray(int[] mergedArray)
         {
             return BuildTreeFromArrayRecurse(mergedArray, 0, mergedArray.Length - 1);
         }
 
-        private static Node BuildTreeFromArrayRecurse(int[] array, int start, int end)
+        private static Tree BuildTreeFromArrayRecurse(int[] array, int start, int end)
         {
             if (start > end)
                 return null;
             if (start == end)
-                return new Node(array[start]);
+                return new Tree(array[start]);
             int mid = (start + end) / 2;
-            var node = new Node(array[mid])
+            var node = new Tree(array[mid])
             {
-                Left = BuildTreeFromArrayRecurse(array, start, mid - 1),
-                Right = BuildTreeFromArrayRecurse(array, mid + 1, end)
+                l = BuildTreeFromArrayRecurse(array, start, mid - 1),
+                r = BuildTreeFromArrayRecurse(array, mid + 1, end)
             };
             return node;
         }
@@ -86,20 +86,20 @@ namespace microsoft_questions.geeks4geeks.Trees
             return result;
         }
 
-        private static List<int> FlattenTree(Node root)
+        private static List<int> FlattenTree(Tree root)
         {
             var result = new List<int>();
             FlattenTreeRecurse(root, result);
             return result;
         }
 
-        private static void FlattenTreeRecurse(Node root, List<int> result)
+        private static void FlattenTreeRecurse(Tree root, List<int> result)
         {
             if (root == null)
                 return;
-            FlattenTreeRecurse(root.Left, result);
-            result.Add(root.Data);
-            FlattenTreeRecurse(root.Right, result);
+            FlattenTreeRecurse(root.l, result);
+            result.Add(root.x);
+            FlattenTreeRecurse(root.r, result);
         }
     }
 }

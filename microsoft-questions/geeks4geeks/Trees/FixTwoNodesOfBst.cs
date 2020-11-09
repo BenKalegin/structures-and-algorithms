@@ -38,17 +38,17 @@ namespace microsoft_questions.geeks4geeks.Trees
             }
         }
 
-        private static void Fix(Node root)
+        private static void Fix(Tree root)
         {
             FindViolator(root);
         }
 
-        private static void FindViolator(Node root)
+        private static void FindViolator(Tree root)
         {
             // in-order traversal should be sorted array
-            (Node node, Node parent) priorValue = (null, null);
+            (Tree node, Tree parent) priorValue = (null, null);
 
-            var violators = new List<(Node node, Node parent)>();
+            var violators = new List<(Tree node, Tree parent)>();
 
             //          10
             //       5     8* -> 2 5 (20 [10) 8]
@@ -60,11 +60,11 @@ namespace microsoft_questions.geeks4geeks.Trees
             //     20*  6
             // 
 
-            void Visitor(Node n, Node parent)
+            void Visitor(Tree n, Tree parent)
             {
                 if (priorValue.node != null)
                 {
-                    if (n.Data < priorValue.node.Data)
+                    if (n.x < priorValue.node.x)
                         // first violator should be former in pair, second violator latter in pair
                         violators.Add(violators.Any() ? (n, parent) : priorValue);
                 }
@@ -80,24 +80,24 @@ namespace microsoft_questions.geeks4geeks.Trees
             var (n2, p2) = violators[1];
 
 
-            if (p1.Left == n1)
-                p1.Left = n2;
+            if (p1.l == n1)
+                p1.l = n2;
             else
-                p1.Right = n2;
+                p1.r = n2;
 
-            if (p2.Left == n2)
-                p2.Left = n1;
+            if (p2.l == n2)
+                p2.l = n1;
             else
-                p2.Right = n1;
+                p2.r = n1;
         }
 
-        private static void InorderTraversal(Node node, Node parent, Action<Node, Node> visitor)
+        private static void InorderTraversal(Tree tree, Tree parent, Action<Tree, Tree> visitor)
         {
-            if (node.Left != null)
-                InorderTraversal(node.Left, node, visitor);
-            visitor(node, parent);
-            if (node.Right != null)
-                InorderTraversal(node.Right, node, visitor);
+            if (tree.l != null)
+                InorderTraversal(tree.l, tree, visitor);
+            visitor(tree, parent);
+            if (tree.r != null)
+                InorderTraversal(tree.r, tree, visitor);
         }
     }
 }

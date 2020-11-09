@@ -68,9 +68,11 @@
     <Compile Include="geeks4geeks\Bits\FindFirstSetBit.cs" />
     <Compile Include="geeks4geeks\Bits\IsBitNumberMultipleOf3.cs" />
     <Compile Include="geeks4geeks\DivideAndConquer\SearchInARotatedArray.cs" />
+    <Compile Include="geeks4geeks\DP\CuttingARod.cs" />
     <Compile Include="geeks4geeks\DP\EggDroppingPuzzle.cs" />
     <Compile Include="geeks4geeks\DP\LongestBitonicSubsequence.cs" />
     <Compile Include="geeks4geeks\DP\LongestCommonSubstring.cs" />
+    <Compile Include="geeks4geeks\DP\LongestIncreasingSubsequence.cs" />
     <Compile Include="geeks4geeks\DP\MaxLengthChain.cs" />
     <Compile Include="geeks4geeks\DP\MinimumNumberOfCoins.cs" />
     <Compile Include="geeks4geeks\DP\MinimumOperations.cs" />
@@ -94,6 +96,7 @@
     <Compile Include="geeks4geeks\Strings\LongestEvenLengthSubstring.cs" />
     <Compile Include="geeks4geeks\Strings\LongestPalindromeInAString.cs" />
     <Compile Include="geeks4geeks\Strings\PermutationsOfAGivenString.cs" />
+    <Compile Include="geeks4geeks\Trees\BiggestPerfectSubtree.cs" />
     <Compile Include="geeks4geeks\Trees\BottomViewOfBinaryTree.cs" />
     <Compile Include="geeks4geeks\Trees\CheckIfABinaryTreeIsBSTOrNot.cs" />
     <Compile Include="geeks4geeks\Trees\ConstructBstFromGivenPreorderTraversal.cs" />
