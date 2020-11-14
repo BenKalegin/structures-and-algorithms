@@ -80,6 +80,8 @@
     <Compile Include="geeks4geeks\DP\PerfectSumProblem.cs" />
     <Compile Include="geeks4geeks\Graph\BreadthFirstSearchGraph.cs" />
     <Compile Include="geeks4geeks\Graph\DeepFirstSearchGraph.cs" />
+    <Compile Include="geeks4geeks\Graph\DirectionalGraph.cs" />
+    <Compile Include="geeks4geeks\Graph\OrderingOfTasksGivenDependencies.cs" />
     <Compile Include="geeks4geeks\Graph\UnDirectionalGraph.cs" />
     <Compile Include="geeks4geeks\Graph\UnitAreaOfLargestRegionOf1s.cs" />
     <Compile Include="geeks4geeks\Greedy\ActivitySelection.cs" />
