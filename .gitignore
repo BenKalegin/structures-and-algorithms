@@ -28,3 +28,5 @@ hs_err_pid*
 /fsharp/text-line-breaks/packages/System.ValueTuple.4.3.0
 /microsoft-questions/.vs/microsoft-questions/v15/Server/sqlite3
 /microsoft-questions/.vs/microsoft-questions/v16/TestStore/0
+/interview-questions/bin/Debug/net5.0
+/interview-questions/obj
