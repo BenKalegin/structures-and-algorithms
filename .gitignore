@@ -30,3 +30,7 @@ hs_err_pid*
 /microsoft-questions/.vs/microsoft-questions/v16/TestStore/0
 /interview-questions/bin/Debug/net5.0
 /interview-questions/obj
+*.v2
+*.user
+*.suo
+*.DotSettings
